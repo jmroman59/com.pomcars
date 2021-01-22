@@ -1,5 +1,5 @@
 # Selenium Framework with Cucumber
-**Author: Beksultan Ismatov**
+**Author: Jose Roman**
 https://www.linkedin.com/in/bksultan-ismatov/
 
 ### BDD framework for automation using Selenium Cucumber and JUnit
@@ -9,11 +9,9 @@ The purpose of the project is to display BDD framework for web application using
 ## Tools & Technologies
 
 * Automation Tools : Selenium Web Driver & Cucumber
-* Project Setup : Apache maven
 * Object Repository Design Pattern : Page Object Model
 * Test Execution Report:  Cucumber pretty-report
 * Browser Compatibility: Cross Browser Execution
-* Screenshot: Take screenshot failure test cases
 * Implicit wait
 * Assertions : Hard
 
@@ -22,7 +20,7 @@ The framework has following features
 1. Modular Design
 2. Maven based framework
 3. Report Generation (cucumber-reporting)
-4. Helper class to handle web component such as (Button,Link etc)
+4. Helper class to handle web component such as (Button, Link etc)
 5. Centralized Configuration (Using Properties file)
 6. POM
 7. Hooks
@@ -56,8 +54,7 @@ This framework has packages which are as below:
   So we don’t need to add external jar files to project.
 
 # How to Run the project
-I am using maven build, so it has pom.xml file. This file has all the configuration of the project. 
-Project will run automatically when we will have access to web-application. We should update all locators for our WebElements.
+I am using maven build, so it has pom.xml file. This file has all the configuration of the project.
 
 
 
