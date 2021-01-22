@@ -12,7 +12,7 @@ import java.util.Map;
 public class Condition {
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car stock parameter from Condition.json
      * @param condition
      * @throws IOException
      */
@@ -34,7 +34,7 @@ public class Condition {
     }
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car make parameter from Condition.json
      * @param condition
      * @throws IOException
      */
@@ -56,7 +56,7 @@ public class Condition {
     }
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car model parameter from Condition.json
      * @param condition
      * @throws IOException
      */
@@ -78,7 +78,7 @@ public class Condition {
     }
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car price parameter from Condition.json
      * @param condition
      * @throws IOException
      */
@@ -100,7 +100,7 @@ public class Condition {
     }
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car radius parameter from Condition.json
      * @param condition
      * @throws IOException
      */
@@ -122,7 +122,7 @@ public class Condition {
     }
 
     /***
-     * This method return car parameter from Condition.json
+     * This method return car zip parameter from Condition.json
      * @param condition
      * @throws IOException
      */
