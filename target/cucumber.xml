@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="25.883">
+    <testcase classname="Verify correct data is showing when we search used cars" name="carInformation filters are displayed" time="14.917">
+        <system-out>
+            <![CDATA[Given User navigates to "URL" application...................................passed
+When User enters car search "carInformation" specification..................passed
+Then User validate filters are displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify correct data is showing when we search used cars" name="New/Used filter tags are displayed" time="1.736">
+        <system-out>
+            <![CDATA[Given User click on new car filter..........................................passed
+Then User validate new filter is displayed..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify correct data is showing when we search used cars" name="Trim filter tag are displayed" time="0.245">
+        <system-out>
+            <![CDATA[Given User click on trim type checkbox......................................passed
+Then User validate trim tag is displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify correct data is showing when we search used cars" name="Validate second car options" time="5.766">
+        <system-out>
+            <![CDATA[Given User click on second car..............................................passed
+Then User validate information is displayed.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify correct data is showing when we search used cars" name="Contact seller information form" time="2.582">
+        <system-out>
+            <![CDATA[Given User enters invalid contact information...............................passed
+Then User is able to see error message......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify correct data is showing when we search used cars" name="Scroll down to payment calculator" time="0.416">
+        <system-out>
+            <![CDATA[Given User scrolls down to view payment calculator..........................passed
+Then User takes a screenshot................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

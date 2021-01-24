@@ -1,0 +1,422 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-24T00:05:07.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1758566800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "carInformation filters are displayed",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;carinformation-filters-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7730421300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to \"URL\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"URL\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.StepDefinition.userNavigatesToApplication(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1987556400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters car search \"carInformation\" specification",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"carInformation\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.StepDefinition.userEntersCarSearchSpecification(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3386065800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User validate filters are displayed",
+            "match": {
+              "location": "steps.StepDefinition.userValidateFiltersAreDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0001"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-24T00:05:22.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36914800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "New/Used filter tags are displayed",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;new/used-filter-tags-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 483421300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on new car filter",
+            "match": {
+              "location": "steps.StepDefinition.userClickOnNewCarFilter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1215481900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User validate new filter is displayed",
+            "match": {
+              "location": "steps.StepDefinition.userValidateNewFilterIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-24T00:05:23.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6981100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Trim filter tag are displayed",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;trim-filter-tag-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153589900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on trim type checkbox",
+            "match": {
+              "location": "steps.StepDefinition.userClickOnTrimTypeCheckbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84237700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate trim tag is displayed",
+            "match": {
+              "location": "steps.StepDefinition.userValidateTrimTagIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0003"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-24T00:05:24.050Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6991200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate second car options",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;validate-second-car-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4778108200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on second car",
+            "match": {
+              "location": "steps.StepDefinition.userClickOnSecondCar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 979466100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User validate information is displayed",
+            "match": {
+              "location": "steps.StepDefinition.userValidateInformationIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0004"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-24T00:05:29.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19958200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Contact seller information form",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;contact-seller-information-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 510012900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters invalid contact information",
+            "match": {
+              "location": "steps.StepDefinition.user_enters_invalid_contact_information()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2050464000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is able to see error message",
+            "match": {
+              "location": "steps.StepDefinition.user_is_able_to_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0005"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-24T00:05:32.407Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8977400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Scroll down to payment calculator",
+        "description": "",
+        "id": "verify-correct-data-is-showing-when-we-search-used-cars;scroll-down-to-payment-calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19945800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User scrolls down to view payment calculator",
+            "match": {
+              "location": "steps.StepDefinition.user_scrolls_down_to_view_payment_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386756100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User takes a screenshot",
+            "match": {
+              "location": "steps.StepDefinition.user_takes_a_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@TEC-0006"
+          }
+        ]
+      }
+    ],
+    "name": "Verify correct data is showing when we search used cars",
+    "description": "",
+    "id": "verify-correct-data-is-showing-when-we-search-used-cars",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ui/SearchUsedCar.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]

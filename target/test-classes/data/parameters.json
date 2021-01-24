@@ -1,0 +1,11 @@
+{
+  "carInformation": {
+    "selectCondition": "Used Cars",
+    "condition": "Used",
+    "make": "Honda",
+    "model": "Pilot",
+    "price": "$50,000",
+    "radius": "100 Miles from",
+    "zip": "60008"
+  }
+}

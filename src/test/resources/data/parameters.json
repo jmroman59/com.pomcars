@@ -1,6 +1,7 @@
 {
   "carInformation": {
-    "condition": "Used Cars",
+    "selectCondition": "Used Cars",
+    "condition": "Used",
     "make": "Honda",
     "model": "Pilot",
     "price": "$50,000",
