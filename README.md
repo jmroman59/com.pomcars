@@ -1,6 +1,6 @@
 # Selenium Framework with Cucumber
 **Author: Jose Roman**
-https://www.linkedin.com/in/bksultan-ismatov/
+www.linkedin.com/in/jose-roman-manuel/
 
 ### BDD framework for automation using Selenium Cucumber and JUnit
 
@@ -43,7 +43,7 @@ This framework has packages which are as below:
   This package is very important. We can write all the automation code in this package according steps definition file. 
   It has methods as steps in feature file, in that we have to write code for implementation.
 
-* `features` :-
+* `ui` :-
   In this Folder you can create all the feature files which has steps to be followed in Automation Script.
 
 * `data` :-
